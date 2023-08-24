@@ -1,0 +1,28 @@
+table { 
+    background-color: #980081; 
+    color: #ffffff; 
+    text-align: center; 
+    border-collapse: 
+    collapse; margin: 25px 0; 
+    font-size: 1em; 
+    font-family: sans-serif; 
+    min-width: 450px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); 
+}
+
+tr { 
+    background-color: #980081; 
+    color: #ffffff; 
+    text-align: center; 
+    border-bottom: 1px solid #dddddd; 
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
