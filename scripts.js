@@ -90,7 +90,7 @@ function recibirJson()
 }
 
 function crearTablaconDatos(){
-    if(!datosCargados && datosTabla.length == 10){
+    if(!datosCargados){
         datosCargados = true;
         tbody.innerHTML = "";  
         datosTabla.forEach((dato, index) => {                
